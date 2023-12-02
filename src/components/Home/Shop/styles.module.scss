@@ -1,0 +1,16 @@
+.shop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #D9D9D9;
+    padding: 16px;
+}
+
+.list{
+    .list_item{
+        margin-top: 8px;
+        &:first-child{
+            margin-top: 0;
+        }
+    }
+}   

@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh; 
+    background-color: #fff;
+    max-width: 350px;
+    margin: 0 auto;
+    h1{
+        font-size: 18px;
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: left;
+    }
+}
+
+.email_wrapper{
+    width: 100%;
+}
+
+.password_wrapper{
+    width: 100%;
+    margin: 24px 0;
+}
+
+.or{
+   margin-top: 20px;
+   font-size: 14px;
+}
+
+.instagram{
+    cursor: pointer;
+}
+
+.need{
+    margin-top: 33px;
+    font-size: 18px;
+    span{
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
+
+.buttons{
+    margin-bottom: 22px;
+    display: flex;
+    width: 100%;
+    .active{
+        background-color: #4978A7;
+        color: #fff;
+        width: 100%;
+        padding: 11px 0;
+        border-radius: 5px;
+        border: none;
+    }
+    .nonActive{
+        background-color: #F3F4F5;
+        color: #000;
+        width: 100%;
+        padding: 11px 0;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+    }
+}
