@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh; 
+    background-color: #fff;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.email_wrapper{
+    width: 100%;
+}
+
+.password_wrapper{
+    width: 100%;
+    margin: 24px 0;
+}
+
+.or{
+   margin-top: 20px;
+   font-size: 14px;
+}
+
+.instagram{
+    cursor: pointer;
+}
+
+.need{
+    font-size: 18px;
+    span{
+        cursor: pointer;
+        text-decoration: underline;
+    }
+}
