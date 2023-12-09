@@ -13,14 +13,14 @@ const RouteTypes = [
     name: RouteName.HOME,
     path: RouteEnum.HOME,
   },
-  {
-    name: RouteName.ACCOUNT,
-    path: RouteEnum.HOME,
-  },
-  {
-    name: RouteName.ORDERS,
-    path: RouteEnum.HOME,
-  },
+  // {
+  //   name: RouteName.ACCOUNT,
+  //   path: RouteEnum.HOME,
+  // },
+  // {
+  //   name: RouteName.ORDERS,
+  //   path: RouteEnum.HOME,
+  // },
 ];
 
 export default RouteTypes;

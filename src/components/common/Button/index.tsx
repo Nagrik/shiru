@@ -7,7 +7,7 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 function Button(props: ButtonProps) {
   const { children, onClick } = props;
   return (
-    <button type="button" className={styles.button} onClick={() => onClick}>
+    <button type="button" className={styles.button} onClick={onClick}>
       {children}
     </button>
   );

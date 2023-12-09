@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import styles from "./styles.module.scss";
 import TextInput from "@/components/common/Input/Input";
 import Button from "@/components/common/Button";
@@ -13,6 +14,7 @@ enum UserTypes {
 }
 function SignUp() {
   const [activeButton, setActiveButton] = useState<UserTypes>(UserTypes.SELLER);
+  const { push } = useRouter();
   const changeButtonType = () => {
     if (activeButton === UserTypes.SELLER) {
       setActiveButton(UserTypes.CUSTOMER);
@@ -51,7 +53,7 @@ function SignUp() {
       <div className={styles.password_wrapper}>
         <TextInput placeholder="Password" name="password" passwordInput />
       </div>
-      <Button>LOGIN</Button>
+      <Button onClick={() => push("/")}>LOGIN</Button>
       <span className={styles.or}>OR</span>
       <div className={styles.instagram}>
         <InstagramIcon />
