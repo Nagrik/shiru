@@ -11,7 +11,7 @@ function Page() {
     <div className={styles.container}>
       <Header />
       <div className={styles.buttonsLines}>
-        <Button>Back to shops</Button>
+        <Button onClick={() => push("/")}>Back to shops</Button>
         <div className={styles.buttons}>
           <Button>Enable</Button>
           <Button onClick={() => push("/shop/settings")}>Shop settings</Button>
